@@ -554,3 +554,222 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/blog/index.php/gii
 ---
+2016/09/08 17:08:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "1".' in C:\xampp\htdocs\YII\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CController.php(270): CController->missingAction('1')
+#1 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(282): CController->run('1')
+#2 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('post/1')
+#3 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/blog/post/1
+---
+2016/09/08 17:08:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "2".' in C:\xampp\htdocs\YII\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CController.php(270): CController->missingAction('2')
+#1 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(282): CController->run('2')
+#2 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('post/2')
+#3 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/blog/post/2
+---
+2016/09/08 17:09:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "1".' in C:\xampp\htdocs\YII\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CController.php(270): CController->missingAction('1')
+#1 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(282): CController->run('1')
+#2 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('post/1')
+#3 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/blog/post/1
+---
+2016/09/08 17:11:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/css/main.css
+HTTP_REFERER=http://localhost/blog/
+---
+2016/09/08 17:11:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/69941337/highlight.css".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/69941337...')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/assets/69941337/highlight.css
+HTTP_REFERER=http://localhost/blog/
+---
+2016/09/08 17:11:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/css/form.css
+HTTP_REFERER=http://localhost/blog/
+---
+2016/09/08 17:11:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/css/screen.css
+HTTP_REFERER=http://localhost/blog/
+---
+2016/09/08 17:11:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/f00badb6/listview/styles.css".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/f00badb6...')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/assets/f00badb6/listview/styles.css
+HTTP_REFERER=http://localhost/blog/
+---
+2016/09/08 17:11:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/77306bbf/pager.css".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/77306bbf...')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/assets/77306bbf/pager.css
+HTTP_REFERER=http://localhost/blog/
+---
+2016/09/08 17:11:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/6f275b19/jquery.js".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/6f275b19...')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/assets/6f275b19/jquery.js
+HTTP_REFERER=http://localhost/blog/
+---
+2016/09/08 17:11:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/6f275b19/jquery.ba-bbq.js".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/6f275b19...')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/assets/6f275b19/jquery.ba-bbq.js
+HTTP_REFERER=http://localhost/blog/
+---
+2016/09/08 17:11:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/f00badb6/listview/jquery.yiilistview.js".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/f00badb6...')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/assets/f00badb6/listview/jquery.yiilistview.js
+HTTP_REFERER=http://localhost/blog/
+---
+2016/09/08 17:11:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/css/print.css
+HTTP_REFERER=http://localhost/blog/
+---
+2016/09/08 17:11:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/f00badb6/listview/styles.css".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/f00badb6...')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/assets/f00badb6/listview/styles.css
+HTTP_REFERER=http://localhost/blog/
+---
+2016/09/08 17:11:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/css/main.css
+HTTP_REFERER=http://localhost/blog/
+---
+2016/09/08 17:11:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/css/screen.css
+HTTP_REFERER=http://localhost/blog/
+---
+2016/09/08 17:11:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/77306bbf/pager.css".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/77306bbf...')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/assets/77306bbf/pager.css
+HTTP_REFERER=http://localhost/blog/
+---
+2016/09/08 17:11:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/css/form.css
+HTTP_REFERER=http://localhost/blog/
+---
+2016/09/08 17:11:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/69941337/highlight.css".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/69941337...')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/assets/69941337/highlight.css
+HTTP_REFERER=http://localhost/blog/
+---
+2016/09/08 17:11:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/6f275b19/jquery.js".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/6f275b19...')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/assets/6f275b19/jquery.js
+HTTP_REFERER=http://localhost/blog/
+---
+2016/09/08 17:11:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/f00badb6/listview/jquery.yiilistview.js".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/f00badb6...')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/assets/f00badb6/listview/jquery.yiilistview.js
+HTTP_REFERER=http://localhost/blog/
+---
+2016/09/08 17:11:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/6f275b19/jquery.ba-bbq.js".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/6f275b19...')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/assets/6f275b19/jquery.ba-bbq.js
+HTTP_REFERER=http://localhost/blog/
+---
+2016/09/08 17:11:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/css/print.css
+HTTP_REFERER=http://localhost/blog/
+---
+2016/09/08 17:11:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/f00badb6/listview/jquery.yiilistview.js".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/f00badb6...')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/assets/f00badb6/listview/jquery.yiilistview.js
+HTTP_REFERER=http://localhost/blog/
+---
