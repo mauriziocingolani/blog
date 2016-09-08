@@ -68,6 +68,19 @@ return array(
 				*/
 			),
 		),
+            
+                //INSTALLAZIONE GII
+                'import'=>array(
+                        'application.models.*',
+                        'application.components.*',
+                ),
+ 
+                'modules'=>array(
+                        'gii'=>array(
+                            'class'=>'system.gii.GiiModule',
+                            'password'=>'pick up a password here',
+                ),
+    ),
 	),
 
 	// application-level parameters that can be accessed
