@@ -114,3 +114,443 @@ Stack trace:
 #24 {main}
 REQUEST_URI=/blog/
 ---
+2016/09/08 16:05:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:08:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:09:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:11:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:11:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:11:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:12:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:12:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:12:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:12:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:12:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:12:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:12:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:12:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:13:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:14:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:14:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:14:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:14:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:14:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:14:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:14:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:17:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:17:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:17:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:17:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:17:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:17:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:17:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:17:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:17:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:17:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:17:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:17:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:17:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:17:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:17:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:18:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/default/login".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/default/log...')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii/default/login
+---
+2016/09/08 16:26:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/default/login".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/default/log...')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii/default/login
+---
+2016/09/08 16:33:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:40:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:40:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:40:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:42:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:42:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:42:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:42:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:42:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:42:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:42:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:42:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:42:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:42:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:42:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
+2016/09/08 16:42:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/gii
+---
