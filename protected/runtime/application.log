@@ -773,3 +773,111 @@ Stack trace:
 REQUEST_URI=/blog/assets/f00badb6/listview/jquery.yiilistview.js
 HTTP_REFERER=http://localhost/blog/
 ---
+2016/09/09 12:41:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/lista".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('user/lista')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/user/lista
+HTTP_REFERER=http://localhost/blog/
+---
+2016/09/09 12:43:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/lista".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('user/lista')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/user/lista
+HTTP_REFERER=http://localhost/blog/
+---
+2016/09/09 12:43:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/lista".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('user/lista')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/user/lista
+HTTP_REFERER=http://localhost/blog/
+---
+2016/09/09 12:44:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/lista".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('user/lista')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/user/lista
+HTTP_REFERER=http://localhost/blog/
+---
+2016/09/09 12:44:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/lista".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('user/lista')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/user/lista
+HTTP_REFERER=http://localhost/blog/
+---
+2016/09/09 12:46:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/lista".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('user/lista')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/user/lista
+HTTP_REFERER=http://localhost/blog/
+---
+2016/09/09 12:46:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/lista".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('user/lista')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/user/lista
+HTTP_REFERER=http://localhost/blog/
+---
+2016/09/09 12:46:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/lista".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('user/lista')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/user/lista
+HTTP_REFERER=http://localhost/blog/
+---
+2016/09/09 12:46:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/lista".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('user/lista')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/user/lista
+HTTP_REFERER=http://localhost/blog/
+---
+2016/09/09 12:46:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/lista".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('user/lista')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/user/lista
+HTTP_REFERER=http://localhost/blog/
+---
+2016/09/09 12:46:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/lista".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('user/lista')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/user/lista
+HTTP_REFERER=http://localhost/blog/
+---
+2016/09/09 12:46:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/lista".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('user/lista')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/user/lista
+HTTP_REFERER=http://localhost/blog/
+---
