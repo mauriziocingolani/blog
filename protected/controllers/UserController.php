@@ -23,21 +23,21 @@ class UserController extends Controller{
 		);
 	}
     
-    public function actionLista(){
+    public function actionLista()
+    {
         
         $listaUtenti = new CActiveDataProvider('User');
         
         
         $this->render('listaUtenti',array('listaUtenti' => $listaUtenti));
     }
-    
-    
-    public function actionDettaglio() {
-        
-        if(isset($_GET['id'])){
-                $utente = User::model()->findByPk($_GET['id']);
-        }
-        
+
+    public function actionDettaglio()
+    {
+       if (isset($_GET['id']))
+
+
+        $utente = User::model()->findByPk($_GET['id']);
         $this->render('dettaglio',array('utente' => $utente));
     }
     
