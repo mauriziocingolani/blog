@@ -77,11 +77,7 @@ class User extends CActiveRecord
 		return CPasswordHelper::verifyPassword($password,$this->password);
 	}
 
-	/**
-	 * Generates the password hash.
-	 * @param string password
-	 * @return string hash
-	 */
+	
 	public function hashPassword($password)
 	{
 		return CPasswordHelper::hashPassword($password);

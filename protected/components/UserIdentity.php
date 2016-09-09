@@ -2,20 +2,20 @@
 
 /**
  * UserIdentity represents the data needed to identity a user.
- * It contains the authentication method that checks if the provided
- * data can identity the user.
  */
 class UserIdentity extends CUserIdentity
 {
 	private $_id;
 
 	/**
-	 * Authenticates a user.
-	 * @return boolean whether authentication succeeds.
+	 * Autenticazione user.
+	 * @return boolean quando autenticazione ha successo.
 	 */
 	public function authenticate()
 	{
 		$user=User::model()->find('LOWER(username)=?',array(strtolower($this->username)));
+                
+                
 		if($user===null)
 			$this->errorCode=self::ERROR_USERNAME_INVALID;
 		else if(!$user->validatePassword($this->password))
@@ -30,7 +30,7 @@ class UserIdentity extends CUserIdentity
 	}
 
 	/**
-	 * @return integer the ID of the user record
+	 * @return ID dell'utente trovato.
 	 */
 	public function getId()
 	{
