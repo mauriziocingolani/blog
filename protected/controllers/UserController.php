@@ -14,7 +14,7 @@ class UserController extends Controller{
 	{
 		return array(
 			array('allow',  // allow all users to access 'index' and 'view' actions.
-				'actions'=>array('lista'),
+				'actions'=>array('lista','dettaglio'),
 				'users'=>array('@'),
 			),
 			array('deny',  // deny all users
@@ -23,7 +23,8 @@ class UserController extends Controller{
 		);
 	}
     
-    public function actionLista(){
+    public function actionLista()
+    {
         
         $criteri = new CDbCriteria(array(
             
@@ -34,6 +35,17 @@ class UserController extends Controller{
         
         $this->render('listaUtenti',array('listaUtenti' => $listaUtenti));
     }
+
+    public function actionDettaglio()
+    {
+       if (isset($_GET['id']))
+
+
+        $utente = User::model()->findByPk($_GET['id']);
+        $this->render('dettaglio',array('utente' => $utente));
+    }
+
+
     
     
 }
