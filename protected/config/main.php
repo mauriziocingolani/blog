@@ -59,6 +59,7 @@ return array(
             'caseSensitive'=>false,
             'rules' => array(
                 'post/<id:\d+>/<title:.*?>' => 'post/view',
+                'user/<id:\d+>/<username:.*?>' => 'user/view',
                 'posts/<tag:.*?>' => 'post/index',
                 '<controller:\w+>/<action:\w+>' => '<controller>/<action>',
             ),

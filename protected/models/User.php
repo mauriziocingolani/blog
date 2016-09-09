@@ -82,4 +82,12 @@ class User extends CActiveRecord
 	{
 		return CPasswordHelper::hashPassword($password);
 	}
+
+    public function getUrl()
+    {
+        return Yii::app()->createUrl('user/view', array(
+            'id'=>$this->id,
+            'username'=>$this->username,
+        ));
+    }
 }
