@@ -1,3 +1,7 @@
 <h1>Lista Utenti</h1>
 <?php
-var_dump($listaUtenti);
+$this->widget('zii.widgets.CListView', array(
+    'dataProvider'=>$listaUtenti,
+    'itemView'=>'_utente',
+
+)); ?>

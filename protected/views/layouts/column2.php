@@ -1,11 +1,11 @@
 <?php $this->beginContent('/layouts/main'); ?>
 <div class="container">
-	<div class="span-18">
+	<div class="col-md-8">
 		<div id="content">
 			<?php echo $content; ?>
 		</div><!-- content -->
 	</div>
-	<div class="span-6 last">
+	<div class="col-md-4">
 		<div id="sidebar">
 			<?php if(!Yii::app()->user->isGuest) $this->widget('UserMenu'); ?>
 
