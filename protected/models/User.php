@@ -85,7 +85,7 @@ class User extends CActiveRecord
 
     public function getUrl()
     {
-        return Yii::app()->createUrl('user/view', array(
+        return Yii::app()->createUrl('user/dettaglio', array(
             'id'=>$this->id,
             'username'=>$this->username,
         ));
