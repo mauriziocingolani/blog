@@ -39,6 +39,7 @@ class UserController extends Controller{
        
         if (isset($_POST['User']))
         {
+            $_POST['User']['password'] = User::hashPassword($_POST['User']['password']);
             $utente->attributes = $_POST['User'];
             $utente->save();
                 
