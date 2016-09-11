@@ -7,7 +7,6 @@
  * @property string $password
  * @property string $email
  * @property string $profile
- * @property string $picture
  */
 class User extends CActiveRecord
 {
@@ -65,7 +64,6 @@ class User extends CActiveRecord
 			'password' => 'Password',
 			'email' => 'Email',
 			'profile' => 'Profile',
-			'picture' => 'Picture'
 		);
 	}
 
