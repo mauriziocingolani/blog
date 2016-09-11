@@ -34,28 +34,28 @@ class UserController extends Controller{
     }
 
     public function actionDettaglio()
-    {
-       if (isset($_GET['id']))
-       {
-           $utente = User::model()->findByPk($_GET['id']);
-           $this->_model=User::model()->findByPk($_GET['id']);}
-
-           else if (isset($_POST['User']))
+    {   
+       $utente=$this->loadModel();
+       
+        if (isset($_POST['User']))
         {
-            $model = $this->_model;
-            var_dump($model);
-            $model->attributes = $_POST['User'];
-            if($model->save())
-                $this->redirect(array('listaUtenti'));
+            $utente->attributes = $_POST['User'];
+            $utente->save();
+                
        }
         $this->render('dettaglio',array('utente' => $utente));
     }
 
-    public function actionUpdate()
+    public function loadModel()
     {
-//        $test = $_POST['User'];
-//        $this->render('test',array('test'=>$test));
+      if($this->_model===null)
+      {
+        if(isset($_GET['id']))
+          $this->_model=User::model()->findbyPk($_GET['id']);
+        if($this->_model===null)
+          throw new CHttpException(404,'The requested page does not exist.');
+      }
+      return $this->_model;
     }
-    
     
 }
