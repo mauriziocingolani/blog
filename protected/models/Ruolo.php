@@ -12,6 +12,8 @@
  */
 class Ruolo extends CActiveRecord
 {
+        
+        private static $arrayRuoli=array();
 	/**
 	 * @return string the associated database table name
 	 */
@@ -95,4 +97,17 @@ class Ruolo extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+        
+        
+        public static function listaRuoli() {
+            
+            $ruoli = self::model()->findAll();
+            
+            foreach($ruoli as $ruolo){
+                self::$arrayRuoli[] = $ruolo->descrizione;
+            }
+            
+            return self::$arrayRuoli;
+            
+        }
 }

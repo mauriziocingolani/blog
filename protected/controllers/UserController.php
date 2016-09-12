@@ -11,11 +11,12 @@ class UserController extends Controller{
     public $layout='column2';
     private $_model;
     
+    
     public function accessRules()
 	{
 		return array(
 			array('allow',  // allow all users to access 'index' and 'view' actions.
-				'actions'=>array('lista','dettaglio','update'),
+				'actions'=>array('lista','dettaglio','update','create'),
 				'users'=>array('@'),
 			),
 			array('deny',  // deny all users
@@ -23,15 +24,22 @@ class UserController extends Controller{
 			),
 		);
 	}
+        
     
     public function actionLista()
     {
+        $criteria = new CDbCriteria(array(
+			'condition'=>'ruolo='.User::RULES_USER,
+		));
         
-        $listaUtenti = new CActiveDataProvider('User');
+        $listaUtenti = new CActiveDataProvider('User',array(
+            'criteria'=>$criteria
+             ));
         
         
         $this->render('listaUtenti',array('listaUtenti' => $listaUtenti));
     }
+    
 
     public function actionDettaglio()
     {   
@@ -47,6 +55,7 @@ class UserController extends Controller{
         $this->render('dettaglio',array('utente' => $utente));
     }
 
+    
     public function loadModel()
     {
       if($this->_model===null)
@@ -59,4 +68,20 @@ class UserController extends Controller{
       return $this->_model;
     }
     
+    
+    public function actionCreate()
+    {   
+        $utente = new User;
+		if(isset($_POST['User']))
+		{
+			$utente->attributes=$_POST['User'];
+			var_dump($utente);
+                        //if($utente->save())
+			//	$this->redirect(array('dettaglio','id'=>$utente->id));
+		}
+
+	$this->render('create',array(
+                                    'utente'=>$utente,
+        ));
+    }
 }
