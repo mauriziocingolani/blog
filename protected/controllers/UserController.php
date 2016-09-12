@@ -18,6 +18,10 @@ class UserController extends Controller{
 				'actions'=>array('lista','dettaglio','update'),
 				'users'=>array('@'),
 			),
+       array('allow',
+                'actions'=>array('create','delete'),
+                'roles'=>array('admin'),3
+            ),
 			array('deny',  // deny all users
 				'users'=>array('*'),
 			),
