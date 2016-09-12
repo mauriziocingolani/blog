@@ -37,7 +37,10 @@ class User extends CActiveRecord
 		return array(
 			array('username, password, email', 'required'),
 			array('username, password, email', 'length', 'max'=>128),
-			array('profile', 'safe'),
+			array('profile', 'length', 'max'=>10, 'tooLong'=>"il tuo profilo supera i 10 caratteri"),
+			
+
+
 		);
 	}
 
