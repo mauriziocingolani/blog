@@ -19,6 +19,10 @@ class UserController extends Controller{
 				'actions'=>array('lista','dettaglio','update','create'),
 				'users'=>array('@'),
 			),
+       array('allow',
+                'actions'=>array('create','delete'),
+                'roles'=>array('admin'),3
+            ),
 			array('deny',  // deny all users
 				'users'=>array('*'),
 			),
@@ -35,7 +39,6 @@ class UserController extends Controller{
         $listaUtenti = new CActiveDataProvider('User',array(
             'criteria'=>$criteria
              ));
-        
         
         $this->render('listaUtenti',array('listaUtenti' => $listaUtenti));
     }
