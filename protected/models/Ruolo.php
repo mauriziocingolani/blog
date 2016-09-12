@@ -104,7 +104,7 @@ class Ruolo extends CActiveRecord
             $ruoli = self::model()->findAll();
             
             foreach($ruoli as $ruolo){
-                self::$arrayRuoli[] = $ruolo->descrizione;
+                self::$arrayRuoli[$ruolo->id_ruolo] = $ruolo->descrizione;
             }
             
             return self::$arrayRuoli;

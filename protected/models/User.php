@@ -100,4 +100,6 @@ class User extends CActiveRecord
             'username'=>$this->username,
         ));
     }
+    
+    
 }

@@ -79,12 +79,13 @@ class UserController extends Controller{
 		{
 			$utente->attributes=$_POST['User'];
 			var_dump($utente);
-                        //if($utente->save())
-			//	$this->redirect(array('dettaglio','id'=>$utente->id));
+                        $utente->save();
+				$this->redirect(array('dettaglio','id'=>$utente->id,'username'=>$utente->username));
 		}
 
 	$this->render('create',array(
                                     'utente'=>$utente,
         ));
     }
+    
 }
