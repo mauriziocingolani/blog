@@ -26,8 +26,11 @@ class UserController extends Controller{
     
     public function actionLista()
     {
-        
-        $listaUtenti = new CActiveDataProvider('User');
+        $criteria=new CDbCriteria(array(
+        'condition'=>'ruolo='.User::RULES_USER,
+     
+    ));
+        $listaUtenti = new CActiveDataProvider('User',array('criteria'=>$criteria));
         
         
         $this->render('listaUtenti',array('listaUtenti' => $listaUtenti));
