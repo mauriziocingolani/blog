@@ -10,7 +10,12 @@
  */
 class User extends CActiveRecord
 {
-	/**
+    
+        const RULES_USER = 1;
+        const RULES_ADMIN = 2;
+
+
+    /**
 	 * Returns the static model of the specified AR class.
 	 * @return static the static model class
 	 */
@@ -53,6 +58,7 @@ class User extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'posts' => array(self::HAS_MANY, 'Post', 'author_id'),
+                        'rules' => array(self::BELONGS_TO, 'Ruolo','ruolo'),
 		);
 	}
 
@@ -67,6 +73,7 @@ class User extends CActiveRecord
 			'password' => 'Password',
 			'email' => 'Email',
 			'profile' => 'Profile',
+                        'ruolo' => 'Ruolo',
 		);
 	}
 

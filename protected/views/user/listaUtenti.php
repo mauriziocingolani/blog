@@ -5,6 +5,7 @@
     <tr>
         <th>Username</th>
         <th>Email</th>
+        <th>Ruolo</th>
     </tr>
     </thead>
 
