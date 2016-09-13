@@ -43,7 +43,7 @@ class User extends CActiveRecord
 			array('username, password, email', 'required'),
 			array('username, password, email', 'length', 'max'=>128),
 			array('profile', 'length', 'max'=>50, 'tooLong'=>"il tuo profilo supera i 10 caratteri"),
-			array('ruolo','safe'),
+			array('ruolo','in','range'=>array(1,2)),
 
 
 		);

@@ -1,5 +1,5 @@
 <h1>Lista Utenti</h1>
-
+<br>
 <table class="table">
     <thead class="thead-inverse">
     <tr>
@@ -10,6 +10,7 @@
     </thead>
 
     <?php $this->widget('zii.widgets.CListView', array(
+        'summaryText' => '', 
         'dataProvider'=>$listaUtenti,
         'itemView'=>'_utente',
     )); ?>

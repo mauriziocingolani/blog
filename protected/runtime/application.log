@@ -1973,3 +1973,78 @@ Stack trace:
 #14 {main}
 REQUEST_URI=/blog/post/view
 ---
+2016/09/12 17:54:40 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\YII\framework\web\helpers\CHtml.php:2525)
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\YII\framework\web\CBaseController.php(95): UserController->renderInternal()
+#2 C:\xampp\htdocs\YII\framework\web\CController.php(869): UserController->renderFile()
+#3 C:\xampp\htdocs\YII\framework\web\CController.php(782): UserController->renderPartial()
+#4 C:\xampp\htdocs\blog\protected\controllers\UserController.php(88): UserController->render()
+#5 C:\xampp\htdocs\YII\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#6 C:\xampp\htdocs\YII\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\YII\framework\web\CController.php(286): UserController->runAction()
+#8 C:\xampp\htdocs\YII\framework\web\CController.php(265): UserController->runActionWithFilters()
+#9 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(282): UserController->run()
+#10 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\blog\index.php(12): CWebApplication->run()
+REQUEST_URI=/blog/user/create
+in C:\xampp\htdocs\blog\protected\views\user\create.php (30)
+in C:\xampp\htdocs\blog\protected\controllers\UserController.php (88)
+in C:\xampp\htdocs\blog\index.php (12)
+2016/09/12 18:00:03 [error] [php] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\blog\protected\controllers\UserController.php:81) (C:\xampp\htdocs\YII\framework\web\CHttpRequest.php:889)
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\controllers\UserController.php(83): UserController->redirect()
+#1 C:\xampp\htdocs\YII\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#2 C:\xampp\htdocs\YII\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\YII\framework\web\CController.php(286): UserController->runAction()
+#4 C:\xampp\htdocs\YII\framework\web\CController.php(265): UserController->runActionWithFilters()
+#5 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(282): UserController->run()
+#6 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\blog\index.php(12): CWebApplication->run()
+REQUEST_URI=/blog/user/create
+in C:\xampp\htdocs\blog\protected\controllers\UserController.php (83)
+in C:\xampp\htdocs\blog\index.php (12)
+2016/09/12 18:00:16 [error] [php] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\blog\protected\controllers\UserController.php:81) (C:\xampp\htdocs\YII\framework\web\CHttpRequest.php:889)
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\controllers\UserController.php(83): UserController->redirect()
+#1 C:\xampp\htdocs\YII\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#2 C:\xampp\htdocs\YII\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\YII\framework\web\CController.php(286): UserController->runAction()
+#4 C:\xampp\htdocs\YII\framework\web\CController.php(265): UserController->runActionWithFilters()
+#5 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(282): UserController->run()
+#6 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\blog\index.php(12): CWebApplication->run()
+REQUEST_URI=/blog/user/create
+in C:\xampp\htdocs\blog\protected\controllers\UserController.php (83)
+in C:\xampp\htdocs\blog\index.php (12)
+2016/09/12 18:00:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\YII\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#3 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/blog/user/
+---
+2016/09/12 18:20:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "posts".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('posts')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/posts/
+---
+2016/09/12 18:22:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\YII\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#3 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/blog/user
+---
