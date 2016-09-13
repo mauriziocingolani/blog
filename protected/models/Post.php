@@ -49,7 +49,7 @@ class Post extends CActiveRecord
 			array('tags', 'match', 'pattern'=>'/^[\w\s,]+$/', 'message'=>'Tags can only contain word characters.'),
 			array('tags', 'normalizeTags'),
 
-			array('title, status', 'safe', 'on'=>'search'),
+			array('title, status, tags', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -188,6 +188,8 @@ class Post extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('title',$this->title,true);
+
+		$criteria->compare('tags',$this->tags,true);
 
 		$criteria->compare('status',$this->status);
 

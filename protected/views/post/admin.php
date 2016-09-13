@@ -20,9 +20,7 @@ $this->breadcrumbs=array(
 			'filter'=>Lookup::items('PostStatus'),
 		),
 		array(
-			'name'=>'create_time',
-			'type'=>'datetime',
-			'filter'=>false,
+			'name'=>'tags',
 		),
 		array(
 			'class'=>'CButtonColumn',
