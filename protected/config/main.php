@@ -58,6 +58,7 @@ return array(
             'showScriptName'=>false,
             'caseSensitive'=>false,
             'rules' => array(
+                'user/'=>'user/lista',
                 'post/<id:\d+>/<title:.*?>' => 'post/view',
                 'user/<id:\d+>/<username:.*?>' => 'user/dettaglio',
                 'posts/<tag:.*?>' => 'post/index',

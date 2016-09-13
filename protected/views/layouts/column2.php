@@ -9,8 +9,6 @@
 		<div id="sidebar">
 			<?php if(!Yii::app()->user->isGuest) $this->widget('UserMenu'); ?>
                     
-                        <?php if(!Yii::app()->user->isGuest) $this->widget('UserManage'); ?>        
-
 			<?php if(!Yii::app()->user->isGuest) $this->widget('UserManage'); ?>
 
 			<?php $this->widget('TagCloud', array(

@@ -2030,3 +2030,21 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/blog/user/
 ---
+2016/09/12 18:20:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "posts".' in C:\xampp\htdocs\YII\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('posts')
+#1 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/posts/
+---
+2016/09/12 18:22:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\YII\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\YII\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\YII\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#3 C:\xampp\htdocs\YII\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\blog\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/blog/user
+---
