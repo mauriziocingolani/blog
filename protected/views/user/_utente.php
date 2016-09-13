@@ -6,6 +6,3 @@
     <td><?php echo $data->rules->descrizione ?></td>
 </tr>
 </tbody>
-
-<br>
-

@@ -1,4 +1,8 @@
 <div class="row">
+<h1>Benvenuto <?php echo $utente->username ?></h1>
+</div>
+
+<div class="row m-t-2">
   <div class="col-md-2 m-b-2">
     <img class="img-fluid img-circle" src="<?php echo $utente->picture ?>"  class="img-circle">
   </div>
