@@ -24,6 +24,12 @@ $this->breadcrumbs=array(
 		),
 		array(
 			'class'=>'CButtonColumn',
+			'buttons'=>array(
+				'delete'=>array(
+				'label'=>'Delete',
+				'url'=>'Yii::app()->createUrl("post/delete",array("id"=>$data->id,"title"=>$data->title))',
+				'imageUrl'=>'https://linearicons.com/free/icon/lnr-trash.svg')),
+				'deleteConfirmation'=>"Sei sicuro di cancellare il post ?",
 		),
 	),
 )); ?>
